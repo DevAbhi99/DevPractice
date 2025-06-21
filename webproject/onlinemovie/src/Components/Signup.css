@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_signup{
+background-image:url('https://wallpapercave.com/wp/wp1917119.jpg') ;
+}
+
+.signup_main{
+    border:1px solid black;
+    height:450px;
+    width:350px;
+    padding-left: 60px;
+     background-color: rgba(0, 0, 0, 0.9);
+    margin-left:650px;
+    margin-top: 200px;
+}
+.s_first_row{
+    color:white;
+    font-size: 30px;
+
+}
+.s_second_row{
+     height:30px;
+    width:300px;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    border: 1px solid white;
+    border-radius:10px;
+    font-size: 16px;
+    padding-left: 10px;
+     margin-top: 50px;
+     padding-top: 5px;
+     padding-left: 9px;
+     display: flex;
+     flex-direction: row;
+}
+.s_third_row{
+     height:30px;
+    width:300px;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    border: 1px solid white;
+    border-radius:10px;
+    font-size: 16px;
+    padding-left: 10px;
+     margin-top: 20px;
+     padding-top: 5px;
+     padding-left: 9px;
+     display: flex;
+     flex-direction: row;
+}
+.s_fourth_row{
+     height:30px;
+    width:300px;
+    background-color: rgb(71, 69, 69);
+    color:white;
+    border: 1px solid white;
+    border-radius:10px;
+    font-size: 16px;
+    padding-left: 10px;
+     margin-top: 20px;
+     padding-top: 5px;
+     padding-left: 9px;
+     display: flex;
+     flex-direction: row;
+}
+
+#signup_username{
+background-color: rgb(71, 69, 69);
+    color:white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:14px;
+}
+#signup_username::placeholder{
+    color:white;
+    opacity:1;
+}
+#signup_username:focus{
+    outline:none;
+    border:none;
+    box-shadow:none;
+}
+#signup_email{
+   background-color: rgb(71, 69, 69);
+    color:white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:14px;
+}
+#signup_email::placeholder{
+   color:white;
+    opacity:1;
+}
+#signup_email:focus{
+    outline:none;
+    border:none;
+    box-shadow: none;
+}
+#signup_pwd{
+   background-color: rgb(71, 69, 69);
+    color:white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:14px;
+}
+#signup_pwd::placeholder{
+    color:white;
+    opacity:1;
+}
+#signup_pwd:focus{
+    outline:none;
+    border:none;
+    box-shadow:none;
+}
+#account_logo{
+    font-size: 20px;
+    color:white;
+}
+#email_logo{
+    font-size: 20px;
+    color:white;
+}
+#pwd_logo{
+    font-size: 20px;
+    color:white;
+}
+#s_signup_btn{
+       height:30px;
+    width:310px;
+    margin-top: 20px;
+    background-color: red;
+    color:white;
+    font-size: 14px;
+    border:none;
+}
+#already_signup{
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: none;
+    color:white;
+    font-size: 14px;
+}

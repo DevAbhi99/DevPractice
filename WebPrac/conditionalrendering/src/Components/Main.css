@@ -1,0 +1,4 @@
+.main_view{
+    display:flex;
+    flex-direction: row;
+}
