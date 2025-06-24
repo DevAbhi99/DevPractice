@@ -38,6 +38,7 @@ else{
             <div className="email"><span id="email_logo"><MdOutlineEmail/></span><span><input type="text" id="emailid" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)}/></span></div>
             <div className="password"><span id="pwd_logo"><IoMdLock/></span><span><input type="text" id="pwd" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)}/></span></div>
             <div className="signup_btn"><button id="btnsignup" onClick={handleLogin}>Login</button></div>
+             <div className="already_signedup"> If already signed up click on <a href="http://localhost:3000/signup"><button id="already_s">Signup</button></a> </div>
         </div>
         
         </>

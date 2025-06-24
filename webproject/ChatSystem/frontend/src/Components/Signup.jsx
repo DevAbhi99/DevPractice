@@ -40,6 +40,7 @@ let handleSignup=()=>{
             <div className="email"><span id="email_logo"><MdOutlineEmail/></span><span><input type="text" id="emailid" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)}/></span></div>
             <div className="password"><span id="pwd_logo"><IoMdLock/></span><span><input type="text" id="pwd" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)}/></span></div>
             <div className="signup_btn"><button id="btnsignup" onClick={handleSignup}>Signup</button></div>
+            <div className="already_signedup"> If already signed up click on <a href="http://localhost:3000/login"><button id="already_s">Login</button></a> </div>
         </div>
         
         </>

@@ -48,4 +48,37 @@ router.post('/login', (req,res)=>{
 })
 
 
+//sending message to the database
+
+router.post('/sendMessage', (req,res)=>{
+    const {message}=req.body;
+
+    const sql='insert into message(message) values(?);';
+
+    db.query(sql, [message], (error, results)=>{
+        if(error){
+            console.log(`Could not send message to the database due to error ${error}`);
+            res.status(400).json({message:'Error'});
+           return;
+        }
+
+        res.status(200).json({message:'Successfully sent data to database'});
+    })
+})
+
+router.get('/getMessage', (req,res)=>{
+
+    const sql='select message from message;';
+
+    db.query(sql, (error, results)=>{
+        if(error){
+            console.log(`Could not retrieve message from database due to error ${error}`);
+            res.status(400).json({message:'Error'});
+           return;
+        }
+        res.status(200).json(results);
+    })
+})
+
+
 module.exports=router;

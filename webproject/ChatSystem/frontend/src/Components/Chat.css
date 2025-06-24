@@ -1,0 +1,55 @@
+.heading_chat{
+    font-size: 40px;
+    color:purple;
+    margin-left:100px ;
+}
+.chat_display{
+height:400px;
+width:700px;
+border: 1px solid purple;
+scroll-behavior: auto;
+overflow-y: auto;
+}
+
+.chat_main{
+    height:500px;
+    width:700px;
+    border:1px solid purple;
+    margin-left: 500px;
+}
+.chat_inp{
+    margin-left:150px;
+    margin-top: 30px;
+}
+#msg_txtbx{
+    height:25px;
+    width:300px;
+    border:1px solid purple;
+}
+#msg_txtbx:focus{
+    height:25px;
+    width:300px;
+    border:1px solid purple;
+    outline:purple;
+}
+
+#msg_txtbx::placeholder{
+ color:purple;
+}
+#send_logo{
+    height:30px;
+    width:40px;
+    background-color: purple;
+    color:white;
+    border:none;
+}
+.message_view{
+    background-color: purple;
+    color:white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 7px;
+    border-radius: 50px;
+    width:200px;
+}

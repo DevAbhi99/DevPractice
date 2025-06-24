@@ -124,3 +124,14 @@
     outline: none;
     box-shadow: none;
 }
+
+.already_signedup{
+    margin-left:60px;
+    margin-top:20px;
+}
+#already_s{
+    border:none;
+    color:purple;
+    background-color: white;
+    font-size: 14px;
+}
