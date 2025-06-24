@@ -1,0 +1,126 @@
+.signup_main{
+    display: flex;
+    flex-direction: column;
+    border:2px solid purple;
+    border-radius:10px;
+    height:300px;
+    width:400px;
+    margin-left: 600px;
+   padding-top:30px;
+   padding-left: 10px;
+   margin-top:150px;
+}
+.signup_title{
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+    margin-left:24px;
+}
+.username{
+    margin-top:30px;
+}
+.username{
+    border:1px solid purple;
+    width:300px;
+    height:25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.email{
+   border:1px solid purple;
+    width:300px;
+    height:25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.password{
+       border:1px solid purple;
+    width:300px;
+    height:25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+
+#btnsignup{
+    width:200px;
+    height: 30px;
+       margin-top:40px;
+       margin-left: 75px;
+       border-radius: 10px;
+       border:1px solid purple;
+       color:purple;
+}
+#user_logo{
+    margin-top:4px;
+    margin-left:10px;
+    color:purple;
+}
+#user{
+    margin-left: 20px;
+    width:200px;
+    font-size: 16px;
+    border:none;
+    padding-left:20px;
+
+}
+#user::placeholder{
+    color:purple;
+}
+#user:focus{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+
+#email_logo{
+    color:purple;
+    margin-top:4px;
+    margin-left:10px;
+}
+
+#emailid{
+    margin-left: 20px;
+    width:200px;
+    font-size: 16px;
+    border:none;
+    padding-left:20px;
+
+}
+#emailid::placeholder{
+    color:purple;
+}
+#emailid:focus{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+
+#pwd_logo{
+       color:purple;
+    margin-top:4px;
+    margin-left:10px;
+}
+
+#pwd{
+    margin-left: 20px;
+    width:200px;
+    font-size: 16px;
+    border:none;
+    padding-left:20px;
+
+}
+#pwd::placeholder{
+    color:purple;
+}
+#pwd:focus{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
